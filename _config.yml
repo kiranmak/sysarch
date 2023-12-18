@@ -2,11 +2,13 @@
 title:               Learning Large-Scale System Design
 tagline:             ' by a network architect.'
 description:         'How I would have designed them, understand why web-scale solution was chosen and where network solutions could have improved the overall outcome.'
-url                      : https://kiranmak.github.io
-baseurl                  : "/sysarch"
-repository               : "kiranmak/sysarch"
+url:                  https://kiranmak.github.io
+baseurl:              /sysarch
+repository :         "kiranmak/sysarch"
 paginate:            5
 permalink:           pretty
+website:             https://kiranmak.github.io
+basewebsite:         /sysarch
 
 # About/contact
 author:
