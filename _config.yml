@@ -10,6 +10,15 @@ permalink:           pretty
 website:             https://kiranmak.github.io
 basewebsite:         /sysarch
 
+  #
+collections:
+  networks:
+    title: Networks Research, Standards and Engineering
+    output: true
+  sysdesigns:
+    output: true
+    title: System Design Engineering
+
 # About/contact
 author:
   name:              Kiran Makhijani
