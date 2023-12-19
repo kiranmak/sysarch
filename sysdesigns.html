@@ -1,0 +1,9 @@
+---
+layout: page
+title: SysDesign
+---
+{% for design in site.sysdesigns %}
+  <div class="sysdesign">
+        <h2><a href="{{ design.url | absolute_url }}">{{ design.title }}</a></h2>
+  </div>
+{% endfor %}

@@ -1,0 +1,9 @@
+---
+layout: page
+title: Network Nuggets
+---
+{% for nets in site.networks %}
+  <div class="networks">
+        <h2><a href="{{ nets.url | absolute_url }}">{{ nets.title }}</a></h2>
+  </div>
+{% endfor %}
